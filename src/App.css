@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* for poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* for nosifer font */
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", system-ui;
+
+}
+
+.font-logo {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+header {
+  position: relative;
+  z-index: 2;
+}
+
+ul li.active {
+  border-bottom: 3px solid #FFB800;
+}
+
+.for_yellow_circle {
+  position: relative;
+  z-index: 1;
+
+}
+
+.border-b-1 {
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.for_yellow_circle::before {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  top: -200px;
+  right: -150px;
+  background-image: url(assets/Vector.svg);
+  /* background-color: #FFB800; */
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+
+}
+
+.best_food {
+  position: relative;
+
+}
+
+.best_food::before {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  background-image: url(src/assets/underline.svg);
+  width: 100%;
+  height: 19px;
+  top: 61px;
+  background-size: cover;
+}
+
+.font {
+  font-family: "Nosifer", sans-serif;
+}
+
+.leaf1 {
+  position: relative;
+  z-index: 1;
+}
+
+.leaf1::before {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  width: 60px;
+  height: 75px;
+  background-image: url('assets/leaf-1.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: -15px;
+  right: -50px;
+}
+
+.product_images {
+  height: 200px;
+}
+
+.roundeded {
+
+  border-radius: 0px 0px 0px 1rem;
+}
+
+.slick-slide>div {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.for_about_bg {
+  background: radial-gradient(#643809, #1c1208);
+}
+
+.for_about_bg ul li {
+  color: #fff;
+
+}
+
+.for_about_bg ul li svg path {
+  fill: #fff !important;
+}
+
+.for_about_bg h2::before,
+.short_underline::before {
+  content: '';
+  position: absolute;
+  top: 35px;
+  left: 0px;
+  background-color: yellow;
+  width: 10%;
+  height: 5px;
+  border-radius: 1rem;
+}
+
+.borderrr {
+  border-radius: 0.6rem 2.8rem;
+}
